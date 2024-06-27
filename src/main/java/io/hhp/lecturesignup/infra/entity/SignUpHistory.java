@@ -26,10 +26,6 @@ public class SignUpHistory {
     private String lectureId;
 
     @ColumnDefault("'-'")
-    @Column(name = "sign_up_yn", nullable = false)
-    private Character signUpYn;
-
-    @ColumnDefault("'-'")
     @Column(name = "regist_date", nullable = false, length = 8)
     private String registDate;
 

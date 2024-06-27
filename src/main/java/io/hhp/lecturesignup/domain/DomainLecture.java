@@ -6,9 +6,10 @@ import lombok.Setter;
 @Getter
 @Setter
 public class DomainLecture {
-//    private Integer id;
-//    private String userId;
-//    private String lectureId;
-//    private Character signUpYn;
-//    private String registDate;
+    private String lectureId;
+    private String lectureName;
+    private String days;
+    private String deadLine;
+    private Integer capacity;
+    private Integer po;
 }

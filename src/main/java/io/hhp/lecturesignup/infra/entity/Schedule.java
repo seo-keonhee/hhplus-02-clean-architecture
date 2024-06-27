@@ -37,4 +37,16 @@ public class Schedule {
     @Column(name = "po", nullable = false)
     private Integer po;
 
+    public Schedule(Integer id, String lectureId, String days, String deadLine, Integer capacity, Integer po){
+        this.id = id;
+        this.lectureId = lectureId;
+        this.days = days;
+        this.deadLine = deadLine;
+        this.capacity = capacity;
+        this.po = po;
+    }
+
+    public Schedule() {
+
+    }
 }

@@ -22,4 +22,12 @@ public class Lecture {
     @Column(name = "lecture_name", nullable = false, length = 50)
     private String lectureName;
 
+    public Lecture(String lectureId, String lectureName) {
+        this.lectureId = lectureId;
+        this.lectureName = lectureName;
+    }
+
+    public Lecture() {
+
+    }
 }
